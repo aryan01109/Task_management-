@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>View Tasks</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h2>📋 Task Dashboard</h2>
+
+    <div class="stats">
+    <div class="a1b">All <span id="allCount">0</span></div>
+    <div class="a2b">Active <span id="activeCount">0</span></div>
+    <div class="a3b">Pending <span id="pendingCount">0</span></div>
+    <div class="a4b">Done <span id="doneCount">0</span></div>
+</div>
+
+
+    <div class="filters">
+        <button class="b1" onclick="filterTasks('all')">All</button>
+        <button class="b2" onclick="filterTasks('active')">Active</button>
+        <button class="b3" onclick="filterTasks('pending')">Pending</button>
+        <button class="b4" onclick="filterTasks('completed')">Completed</button>
+    </div>
+
+    <div id="taskList"></div>
+
+    <br>
+    <a href="index.html" class="back">⬅ Home</a>
+    <a href="add.html" class="back">➕ Add Task</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

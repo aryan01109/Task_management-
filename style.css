@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    font-family:Segoe UI;
+    background:linear-gradient(135deg,#141e30,#243b55);
+    color:white;
+}
+
+/* Home */
+.home{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.homeBox{
+    background:#111;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 0 30px cyan;
+    text-align:center;
+}
+
+.homeBtns{
+    margin-top:30px;
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+
+.btn{
+    padding:20px 40px;
+    border-radius:15px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+
+.add{background:#03a9f4;}
+.view{background:#4caf50;}
+
+/* Add Page */
+.addBox{
+    max-width:400px;
+    margin:100px auto;
+    background:#111;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.addBox input{
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    border:none;
+    margin:10px 0;
+}
+
+.addBox button{
+    width:100%;
+    background:#00f2fe;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+}
+
+/* View Page */
+.app{
+    max-width:420px;
+    margin:40px auto;
+    background:#111;
+    padding:20px;
+    border-radius:20px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.stats div{
+    background:#f2e8e8;
+    padding:12px;
+    border-radius:12px;
+    width:23%;
+    text-align:center;
+    font-weight:bold;
+}
+
+.filters button{
+    border:none;
+    padding:10px;
+    font-weight:bold;
+    cursor:pointer;
+    margin:2px;
+}
+
+.filters button{
+    width:20%;
+    margin-bottom: 10px;
+    /* background:#222; */
+    /* color:white; */
+    /* border:none; */
+    border-radius:10px;
+}
+
+.task{
+    background:#222;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+.task.active{border-left:5px solid #03a9f4;}
+.task.pending{border-left:5px solid #ff9800;}
+.task.completed{
+    border-left:5px solid #4caf50;
+    text-decoration:line-through;
+}
+
+.back{
+    display:inline-block;
+    margin:10px;
+    color:#00f2fe;
+    text-decoration:none;
+}
+.b1{
+    background:#e224d3;   
+}
+.b2{
+    background:#03a9f4;   
+}
+.b3{
+   background:#ff9800;   
+}
+.b4{
+    background:#4caf50;   
+}
+
+.a1b{
+    color:#e224d3;   
+}
+.a2b{
+    color:#03a9f4;   
+}
+.a3b{
+   color:#ff9800;   
+}
+.a4b{
+    color:#4caf50;   
+}
